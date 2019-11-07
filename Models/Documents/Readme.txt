@@ -47,3 +47,12 @@ Then write the below code:
 System.Data.Entity.Database.SetInitializer
 	(new System.Data.Entity.MigrateDatabaseToLatestVersion
 		<DatabaseContext, Migrations.Configuration>());
+
+(6)
+
+حال یک بار پروژه را اجرا کرده تا ببینیم که هیچ مشکلی وجود ندارد
+
+(7)
+
+بانک اطلاعاتی را حذف کرده، و مجددا برنامه را اجرا می‌کنیم
+تا ببینیم که هیچ مشکلی وجود ندارد
