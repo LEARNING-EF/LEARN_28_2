@@ -5,7 +5,7 @@ namespace Models.Migrations
 	internal sealed class Configuration :
 		System.Data.Entity.Migrations.DbMigrationsConfiguration<DatabaseContext>
 	{
-		public Configuration()
+		public Configuration() : base()
 		{
 			ContextKey = "Models.DatabaseContext";
 
